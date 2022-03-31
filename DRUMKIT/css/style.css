@@ -1,0 +1,74 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  height: 700px;
+  padding: 280px 150px 0 150px;
+  background-image: url("/Users/yeesshhh/Desktop/STUDY/DRUMKIT/photos/Free-Drum-Kits-Yoast_1200x1200.webp");
+  background-size: 1500px;
+  font-size: 10px;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.drumpad {
+  border: 5px solid black;
+  border-radius: 25px;
+  height: 100px;
+  width: 100px;
+  color: white;
+  background-color: rgba(212, 132, 11, 0.479);
+  text-align: center;
+  padding:1px;
+  font-size: 12px;
+  transition: all 0.07s;
+}
+
+.sound {
+  font-size: 1rem;
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: bolder;
+  text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+  color: rgb(210, 255, 10);
+}
+.playing {
+  transform:scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 10px #ffc600;
+}
+
+h1 {
+  text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+  font-family: 'Shadows Into Light', cursive;
+  font-size:2.3em;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
