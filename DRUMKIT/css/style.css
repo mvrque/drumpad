@@ -27,7 +27,7 @@ body {
   justify-content: space-evenly;
   height: 700px;
   padding: 280px 150px 0 150px;
-  background-image: url("/Users/yeesshhh/Desktop/STUDY/DRUMKIT/photos/Free-Drum-Kits-Yoast_1200x1200.webp");
+  background-image: url("DRUMKIT/photos/Free-Drum-Kits-Yoast_1200x1200.webp");
   background-size: 1500px;
   font-size: 10px;
 }
