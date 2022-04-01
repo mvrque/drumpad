@@ -24,12 +24,16 @@
 body {
   display: flex;
   justify-content: center;
-  justify-content: space-evenly;
+
   height: 700px;
-  padding: 280px 150px 0 150px;
-  background-image: url("DRUMKIT/photos/Free-Drum-Kits-Yoast_1200x1200.webp");
+  padding: 280px 0 0 0;
+  background-image: url("Free-Drum-Kits-Yoast_1200x1200.webp");
   background-size: 1500px;
   font-size: 10px;
+}
+.first , .second , .third{
+  display: flex;
+  flex-direction: row;
 }
 
 
@@ -72,3 +76,18 @@ h1 {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+@media (min-device-width:0px) and (max-device-width: 900px) {
+  body{
+    display:flex;
+    justify-content: space-evenly;
+    padding-bottom: 200px;
+    
+  }
+  .first , .second , .third{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+}
